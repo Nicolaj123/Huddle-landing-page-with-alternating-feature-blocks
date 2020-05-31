@@ -185,6 +185,23 @@
   padding-top: 200px;
 }
 
+.information1, .information2, .information3 {
+  border: solid 2px red;
+  display: flex;
+  width: 22%; 
+}
+
+.information2 img, .information3 img, .information1 img{
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.licontainer{
+  border: solid 2px blue;
+  flex-direction: column;
+  column-count: 2;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
