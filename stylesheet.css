@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(https://fonts.google.com/specimen/Poppins);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://fonts.google.com/specimen/Open + Sans);
+  font-weight: 400, 700;
+}
+
+.navfirstboxcss {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 20px 50px 25px;
+}
+
+.huddle-icon {
+  width: 150px;
+  height: 25px;
+}
+
+.navbtn {
+  border-radius: 18px;
+  width: 150px;
+  color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  height: 35px;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 20px 60px 25px 25px;
+}
+
+.windowimg {
+  width: 45%;
+}
+
+.firstbox2 {
+  padding-left: 40px;
+}
+
+.firstboxbtn {
+  background-color: magenta;
+  color: #ffffff;
+  width: 180px;
+  height: 35px;
+  border-radius: 18px;
+  border-color: magenta;
+}
+
+.secondbox {
+  display: grid;
+  justify-content: center;
+  padding: 20px 20px 30px 25px;
+  width: 100%;
+}
+
+.together-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 30px 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px;
+  height: 90%;
+}
+
+.together2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px 15px 20px 20px;
+}
+
+.flowing-box {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 30px 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px;
+  height: 90%;
+}
+
+.flowing2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-left: 50px;
+  padding: 20px 15px 20px 25px;
+}
+
+.together-icon {
+  width: 200px;
+}
+.flowing-icon {
+  width: 200px;
+}
+.users-icon {
+  width: 200px;
+}
+
+.users-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20px 20px 30px 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px;
+}
+.users2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px 15px 20px 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
